@@ -1,20 +1,86 @@
 <html>
 
 <head>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 	<style>
+		body {
+			background-color: #a1e8f1;
+			font-family: "Lato";
+		}
+
 		.container {
 			display: -webkit-flex;
 			height: 98vh;
 			font-family: sans-serif;
+			background-color: #a1e8f1;
 		}
+
+		h1 {
+			font-size: 42px;
+			font-weight: 300;
+			text-align: center;
+			letter-spacing: 6px;
+			text-transform: uppercase;
+			margin-bottom: 15px;
+			margin-top: 80px;
+		}
+
 		.map {
 			width: 30%;
 			background-color: red;
+			background-color: #a1e8f1;
 		}
+
+		img {
+			margin: 10px auto 60px;
+			border: 10px solid white;
+			display: block;
+		}
+
+		h3 {
+			font-size: 16px;
+			text-align: center;
+			font-weight: 300;
+			margin-bottom: 10px;
+		}
+
+		span {
+			font-size: 18px;
+			background-color: white;
+			padding: 10px 15px;
+			display: table;
+			margin: 0 auto;
+			font-weight: 300;
+			text-transform: uppercase;
+			margin-bottom: 60px;
+		}
+
+		time {
+			font-size: 18px;
+			font-weight: 300;
+			background-color: white;
+			display: table;
+			letter-spacing: 3px;
+			margin: 0 auto 60px;
+			padding: 5px 10px;
+		}
+
 		.description {
 			width: 70%;
 			padding: 5px;
-			background-color: blue;
+			background-color: #a1e8f1;
+			overflow: scroll;
+		}
+		p {
+			max-width: 500px;
+			margin: 0 auto;
+			font-size: 16px;
+			font-weight: 300;
+			line-height: 200%;
+			margin-bottom: 30px;
+		}
+		.content {
+			margin-bottom: 160px;
 		}
 	</style>
 </head>
@@ -32,17 +98,21 @@
 			<figure>
 			    <img src="https://www.google.com/url?q=http%3A%2F%2Fwww.luxurytraveladvisor.com%2Ffiles%2Fluxurytraveladvisor%2Fnodes%2F2009%2F108%2FFontainebleau-Miami-Beach.jpg" alt="The Pulpit Rock" width="304" height="228">
 			</figure>
+
 			<h3>Style</h3>
 			<span>Neo Baroque</span>
+
 			<h3>Fame</h3>
 			<span>Frank Sinatra's A Hole in the Head, Jerry Lewis' The Bell Boy, James Bond Goldfinger, night life, Scarface</span>
+
 			<h3>Architect</h3>
 			<span>Morris Lapidus</span>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.
+			<div class="content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-</p>
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.</p>
+			</div>
 		</div>
 		<div class="description">
 			<a name="" />
@@ -51,17 +121,21 @@ Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
 			<figure>
 			    <img src="http://www.miamiandbeaches.com/~/media/images/gmcvb/miamiandbeaches/places%20to%20see/area%20icons/area-icon-south-beach-lincoln-road.ashx" alt="The Pulpit Rock" width="304" height="228">
 			</figure>
+
 			<h3>Style</h3>
 			<span>Art Deco</span>
+
 			<h3>Fame</h3>
 			<span>Showings</span>
+
 			<h3>Architect</h3>
 			<span></span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-			Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.
+			<div class="content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-			</p>
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.</p>
+			</div>
 		</div>
 		<div class="description">
 			<a name="" />
@@ -70,17 +144,21 @@ Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
 			<figure>
 			    <img src="http://teleprompterrental.com/?attachment_id=2629" alt="The Pulpit Rock" width="304" height="228">
 			</figure>
+
 			<h3>Style</h3>
 			<span>Art Deco</span>
+
 			<h3>Fame</h3>
 			<span>Muhhamad Ali 1954 World Heavyweight Championship, National Republican and Democrat Conventions</span>
+
 			<h3>Architect</h3>
 			<span></span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-			Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.
+			<div class="content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-			</p>
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.</p>
+			</div>
 		</div>
 		<div class="description">
 			<a name="" />
@@ -89,17 +167,21 @@ Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
 			<figure>
 			    <img src="https://miamiclasica.files.wordpress.com/2011/02/1-new-world-center-exterior.jpg" alt="The Pulpit Rock" width="304" height="228">
 			</figure>
+
 			<h3>Style</h3>
 			<span>Neo Baroque</span>
+
 			<h3>Fame</h3>
 			<span>Home of the New World Symphony</span>
+
 			<h3>Architect</h3>
 			<span>Frank Gehry</span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-			Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.
+			<div class="content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-			</p>
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.</p>
+			</div>
 		</div>
 		<div class="description">
 			<a name="" />
@@ -108,17 +190,21 @@ Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
 			<figure>
 			    <img src="http://en.wikipedia.org/wiki/Eden_Roc_Miami_Beach_Hotel#mediaviewer/File:Eden_Roc_exterior_FL2.jpg" alt="The Pulpit Rock" width="304" height="228">
 			</figure>
+
 			<h3>Style</h3>
 			<span>Neo Baroque MiMo</span>
+
 			<h3>Fame</h3>
 			<span>I Love Lucy, Married to The Mob</span>
+
 			<h3>Architect</h3>
 			<span></span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-			Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.
+			<div class="content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-			</p>
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.</p>
+			</div>
 		</div>
 		<div class="description">
 			<a name="" />
@@ -127,17 +213,21 @@ Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
 			<figure>
 			    <img src="https://pbs.twimg.com/profile_images/1639106000/TMbuilding_sunsetx180_400x400.jpg" alt="The Pulpit Rock" width="304" height="228">
 			</figure>
+
 			<h3>Style</h3>
 			<span>Neo Baroque</span>
+
 			<h3>Fame</h3>
 			<span></span>
+
 			<h3>Architect</h3>
 			<span>Morris Lapidus</span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-			Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.
+			<div class="content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-			</p>
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.</p>
+			</div>
 		</div>
 		<div class="description">
 			<a name="" />
@@ -146,17 +236,21 @@ Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
 			<figure>
 			    <img src="http://blogs.miaminewtimes.com/cultist/breakwater1sized.jpeg" alt="The Pulpit Rock" width="304" height="228">
 			</figure>
+
 			<h3>Style</h3>
 			<span>Art Deco</span>
+
 			<h3>Fame</h3>
 			<span></span>
+
 			<h3>Architect</h3>
 			<span>Kobi Karp</span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-			Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.
+			<div class="content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-			</p>
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.</p>
+			</div>
 		</div>
 		<div class="description">
 			<a name="" />
@@ -165,17 +259,21 @@ Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
 			<figure>
 			    <img src="http://therealdeal.com/miami/wp-content/uploads/2013/07/tumblr_m7b9em9LLW1qe7vo3o1_500.jpg" alt="The Pulpit Rock" width="304" height="228">
 			</figure>
+
 			<h3>Style</h3>
 			<span>Neo Baroque</span>
+
 			<h3>Fame</h3>
 			<span></span>
+
 			<h3>Architect</h3>
 			<span>Skislewicz</span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-			Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.
+			<div class="content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-			</p>
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.</p>
+			</div>
 		</div>
 		<div class="description">
 			<a name="" />
@@ -184,17 +282,21 @@ Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
 			<figure>
 			    <img src="http://en.wikipedia.org/wiki/Miami_Beach_Convention_Center#mediaviewer/File:Miami_Beach_FL_Fillmore_Theater01.jpg" alt="The Pulpit Rock" width="304" height="228">
 			</figure>
+
 			<h3>Style</h3>
 			<span>MiMo</span>
+
 			<h3>Fame</h3>
 			<span>Jackie Gleason, Miss Universe Pageants</span>
+
 			<h3>Architect</h3>
 			<span>Henry Hohauser, L. Murray Dixon</span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-			Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.
+			<div class="content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-			</p>
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.</p>
+			</div>
 		</div>
 		<div class="description">
 			<a name="" />
@@ -203,17 +305,21 @@ Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
 			<figure>
 			    <img src="http://miamibeachpropertyblog.com/the-versace-mansion-miami-beach/" alt="The Pulpit Rock" width="304" height="228">
 			</figure>
+
 			<h3>Style</h3>
 			<span>Mediterranean Revival</span>
+
 			<h3>Fame</h3>
 			<span>Gianni Versace</span>
+
 			<h3>Architect</h3>
 			<span></span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-			Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.
+			<div class="content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-			</p>
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.</p>
+			</div>
 		</div>
 		<div class="description">
 			<a name="" />
@@ -222,17 +328,21 @@ Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
 			<figure>
 			    <img src="https://d316qi7raado3i.cloudfront.net/wp-content/uploads/2012/06/bass-museum-collins-park-photo.jpg" alt="The Pulpit Rock" width="304" height="228">
 			</figure>
+
 			<h3>Style</h3>
 			<span>Art Deco</span>
+
 			<h3>Fame</h3>
 			<span></span>
+
 			<h3>Architect</h3>
 			<span>Russel Pancoast</span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-			Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.
+			<div class="content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-			</p>
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.</p>
+			</div>
 		</div>
 		<div class="description">
 			<a name="" />
@@ -241,21 +351,27 @@ Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
 			<figure>
 			    <img src="http://www.gannett-cdn.com/-mm-/ac1394dbdcca6a36cbf486633b129cd813095ac3/r=x404&c=534x401/local/-/media/USATODAY/hotelcheckin/2012/11/14/gale-hotel-south-beach-014-4_3.jpg" alt="The Pulpit Rock" width="304" height="228">
 			</figure>
+
 			<h3>Style</h3>
 			<span>Deco/MiMo</span>
+
 			<h3>Fame</h3>
 			<span></span>
+
 			<h3>Architect</h3>
 			<span>Robert Swartburg</span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-			Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.
+			<div class="content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida iaculis nibh ac semper. Quisque vulputate quam et tincidunt tincidunt. Aenean imperdiet, dui vitae posuere rhoncus, tortor dui faucibus urna, ac scelerisque lectus sem et purus. Morbi at est non nulla pellentesque sodales ac nec neque. Praesent metus ex, tempus nec est sit amet, tristique porttitor neque. Donec quis pellentesque odio. Nam tincidunt turpis vel magna posuere, ut fringilla libero finibus. Morbi venenatis pulvinar tincidunt. Sed a tincidunt est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-			</p>
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed dictum pulvinar tellus vel pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent non nibh sed lacus lacinia eleifend ut non nulla. Pellentesque mattis, massa sed consectetur posuere, libero odio pretium velit, eget auctor elit arcu sit amet odio. Etiam dignissim fermentum est ut venenatis. Duis suscipit posuere lacinia. Pellentesque ultricies diam elementum, posuere nisl convallis, condimentum enim. Maecenas faucibus ipsum felis, ac sodales diam aliquet id. Mauris id finibus eros.</p>
+			</div>
+		</div>
 		</div>
 	</div>
 </body>
 	
 	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
 
-</html>
+</html>	
