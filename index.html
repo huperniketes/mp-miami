@@ -25,6 +25,7 @@
 			text-transform: uppercase;
 			margin-bottom: 15px;
 			margin-top: 80px;
+			color: #415d61;
 		}
 
 		.map {
@@ -84,7 +85,9 @@
 			font-weight: 300;
 			line-height: 200%;
 			margin-bottom: 30px;
+			color: #415d61;
 		}
+
 		.content {
 			margin-bottom: 160px;
 		}
@@ -378,6 +381,45 @@
 </body>
 	
 	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+	<script src="noframework.waypoints.min.js"></script>
+
+	<script>
+    $( document ).ready(function() {
+		var first = new Waypoint({
+		  element: document.getElementById('first'),
+		  handler: function(direction) {
+		    console.log('You have scrolled to a thing');
+		  }
+		});
+
+		var second = new Waypoint({
+		  element: document.getElementById('second'),
+		  handler: function(direction) {
+		    console.log('You have scrolled to a thing');
+		  }
+		});
+
+		var third = new Waypoint({
+		  element: document.getElementById('third'),
+		  handler: function(direction) {
+		    console.log('You have scrolled to a thing');
+		  }
+		});
+
+		var forth = new Waypoint({
+		  element: document.getElementById('forth'),
+		  handler: function(direction) {
+		    console.log('You have scrolled to a thing');
+		  }
+		});
+		
+		var fifth = new Waypoint({
+		  element: document.getElementById('fifth'),
+		  handler: function(direction) {
+		    console.log('You have scrolled to a thing');
+		  }
+		});
+});
+	</script>
 
 </html>	
